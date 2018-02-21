@@ -48,3 +48,20 @@ Temporary Items
 /.metadata/
 
 *.project
+*.tis
+*.gen
+.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/segments_1
+*.lock
+.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_0.fdt
+*.fdx
+*.frq
+.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_0.nrm
+*.fnm
+.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_0.tii
+*.prx
+.recommenders/caches/identified-project-coordinates.json
+*.nrm
+.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_1.fdt
+.recommenders/caches/manual-mappings.json
+.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/segments_2
+*.tii
