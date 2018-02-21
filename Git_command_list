@@ -1,0 +1,55 @@
+Git Command
+------------------------------------
+git add 
+
+$git commit -m "Add existing file"
+
+To push the changes
+---------------------
+$git push origin your-branch
+
+ To stash files
+ ----------------
+$git stash
+
+To Undo a git stash
+--------------------
+$git stash pop
+
+$ git checkout -b [name_of_your_new_branch]
+Change working branch :
+
+$ git checkout [name_of_your_new_branch]
+Push the branch on github :
+
+$ git push origin [name_of_your_new_branch]
+
+Update your branch when the original branch from official repository has been updated :
+
+$ git fetch [name_of_your_remote]
+
+$ git merge [name_of_your_remote]/develop
+Delete a branch on your local filesystem :
+
+$ git branch -d [name_of_your_new_branch]
+
+To force the deletion of local branch on your filesystem :
+
+$ git branch -D [name_of_your_new_branch]
+
+Delete the branch on github :
+
+$ git push origin :[name_of_your_new_branch]
+
+Removing a file
+
+$git rm file1.txt
+$git commit -m "remove file1.txt"
+
+But if you want to remove the file only from the Git repository and not remove it from the filesystem, use:
+
+git rm --cached file1.txt
+git commit -m "remove file1.txt"
+And to push changes to remote repo
+
+git push origin branch_name  
